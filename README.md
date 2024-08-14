@@ -23,7 +23,9 @@ The generated images are automatically saved and can be viewed directly. These i
 To use this project, simply provide a description of the image you want to generate. The model will process the description and output a corresponding image, which will be saved and displayed.
 
 ### Example
-If you input a description such as "Trees with fruits on them," the model will generate an image depicting trees bearing fruit.
+If you input a description such as "Trees with fruits on them," the model will generate an image depicting trees bearing fruit. 
+![Sample Image](generated_image.png)
+
 
 ## Customization
 The project includes several hyperparameters that can be adjusted to influence the image generation process:
@@ -32,9 +34,13 @@ Guidance Scale: Adjusts how closely the image matches the provided description.
 Number of Inference Steps: Controls the quality and detail of the generated image by determining the number of denoising steps.
 Random Seed: Ensures reproducibility of the generated images by setting a specific random seed.
 Real-World Example
-When I first provided the text "Mechanical robot with screen teaching students," the image generated was decent but had some noise, such as slight blurring and lack of clarity. To improve this, I adjusted the guidance scale to 20, resulting in a much clearer image that adhered closely to the description.
-
-However, the initial text led to an image that included a mechanical robot, a screen, and students separately, rather than a robot with a screen teaching students. To refine the outcome, I modified the text to "A programmed humanoid robot having a screen teaching the primary school students in India" and adjusted the guidance scale to 18. This resulted in the desired clear image that perfectly matched the text description.
+When I first provided the text "Mechanical robot with screen teaching students," the image generated was decent but had some noise, such as slight blurring and lack of clarity.
+If you input a description such as "Trees with fruits on them," the model will generate an image depicting trees bearing fruit. 
+![Sample Image](generated_image(1).png)
+To improve this, I adjusted the guidance scale to 20, resulting in a much clearer image that adhered closely to the description.
+![Sample Image](enhanced_image.png)
+However, the initial text led to an image that included a mechanical robot, a screen, and students separately, rather than a robot with a screen teaching students because guidance scale assures that the image strictly sticks to the text. To refine the outcome, I modified the text to "A programmed humanoid robot having a screen teaching the primary school students in India" and adjusted the guidance scale to 18. This resulted in the desired clear image that perfectly matched the text description.
+![Sample Image](enhanced_image(3).png)
 
 ## Installation
 Clone the Repository: Download the project files from GitHub.
