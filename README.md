@@ -36,13 +36,13 @@ Random Seed: Ensures reproducibility of the generated images by setting a specif
 Real-World Example
 When I first provided the text "Mechanical robot with screen teaching students," the image generated was decent but had some noise, such as slight blurring and lack of clarity.
 If you input a description such as "Trees with fruits on them," the model will generate an image depicting trees bearing fruit. 
-![Alt Text]("generated_image( 1).png")
+![Sample Image](generated_image%20(1).png)
 
 To improve this, I adjusted the guidance scale to 20, resulting in a much clearer image that adhered closely to the description.
 ![Sample Image](enhanced_image.png)
 
 However, the initial text led to an image that included a mechanical robot, a screen, and students separately, rather than a robot with a screen teaching students because guidance scale assures that the image strictly sticks to the text. To refine the outcome, I modified the text to "A programmed humanoid robot having a screen teaching the primary school students in India" and adjusted the guidance scale to 18. This resulted in the desired clear image that perfectly matched the text description.
-![Alt Text]("enhanced_image (3).png")
+![Sample Image](enhanced_image%20(3).png)
 
 ## Installation
 Clone the Repository: Download the project files from GitHub.
