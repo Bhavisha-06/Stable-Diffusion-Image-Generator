@@ -34,8 +34,7 @@ Guidance Scale: Adjusts how closely the image matches the provided description.
 Number of Inference Steps: Controls the quality and detail of the generated image by determining the number of denoising steps.
 Random Seed: Ensures reproducibility of the generated images by setting a specific random seed.
 Real-World Example
-When I first provided the text "Mechanical robot with screen teaching students," the image generated was decent but had some noise, such as slight blurring and lack of clarity.
-If you input a description such as "Trees with fruits on them," the model will generate an image depicting trees bearing fruit. 
+When I first provided the text "Mechanical robot with screen teaching students," the image generated was decent but had some noise, such as slight blurring and lack of clarity. 
 ![Sample Image](generated_image%20(1).png)
 
 To improve this, I adjusted the guidance scale to 20, resulting in a much clearer image that adhered closely to the description.
